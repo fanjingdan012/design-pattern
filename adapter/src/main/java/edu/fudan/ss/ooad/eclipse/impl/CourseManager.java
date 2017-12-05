@@ -10,18 +10,18 @@ import edu.fudan.ss.ooad.eclipse.core.ITeacher;
 
 public class CourseManager implements ICourseEvaluationManager {
 	public CourseManager() {
-		ITeacher teacher1 = new Teacher("1", "教师1");
-		ITeacher teacher2 = new Teacher("2", "教师2");
+		ITeacher teacher1 = new Teacher("1", "Teacher1");
+		ITeacher teacher2 = new Teacher("2", "Teacher2");
 		teachers.add(teacher1);
 		teachers.add(teacher2);
 
-		ICourse course1 = new Course("1", "课程1");
-		ICourse course2 = new Course("2", "课程2");
+		ICourse course1 = new Course("1", "Course1");
+		ICourse course2 = new Course("2", "Course2");
 		teacher1.getCourses().add(course1);
 		teacher2.getCourses().add(course2);
 
-		IStudent student1 = new Student("1", "学生1");
-		IStudent student2 = new Student("2", "学生2");
+		IStudent student1 = new Student("1", "Student1");
+		IStudent student2 = new Student("2", "Student2");
 		course1.getStudents().add(student1);
 		course2.getStudents().add(student2);
 	}
