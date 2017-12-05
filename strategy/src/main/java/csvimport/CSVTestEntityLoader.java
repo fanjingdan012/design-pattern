@@ -1,4 +1,4 @@
-package designpattern.strategy.csvimport;
+package csvimport;
 
 public class CSVTestEntityLoader extends CVSLoader<TestEntity> {
 

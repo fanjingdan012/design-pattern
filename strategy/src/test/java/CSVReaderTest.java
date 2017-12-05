@@ -1,4 +1,3 @@
-package designpattern.strategy;
 
 import java.io.StringReader;
 import java.util.Collection;

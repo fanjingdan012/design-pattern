@@ -1,9 +1,9 @@
-package designpattern.abstractfactory.uiwidget.pm;
+package uiwidget.pm;
 
-import designpattern.abstractfactory.uiwidget.IScrollBar;
-import designpattern.abstractfactory.uiwidget.IWidgetFactory;
-import designpattern.abstractfactory.uiwidget.IWindow;
-import designpattern.abstractfactory.uiwidget.WidgetFactory;
+import uiwidget.IScrollBar;
+import uiwidget.IWidgetFactory;
+import uiwidget.IWindow;
+import uiwidget.WidgetFactory;
 
 public class PMWidgetFactory extends WidgetFactory implements IWidgetFactory {
 

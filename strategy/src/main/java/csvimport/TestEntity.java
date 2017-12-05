@@ -1,7 +1,7 @@
 /**
  * 
  */
-package designpattern.strategy.csvimport;
+package csvimport;
 
 import java.text.MessageFormat;
 

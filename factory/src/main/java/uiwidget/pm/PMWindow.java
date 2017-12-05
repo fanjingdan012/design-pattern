@@ -1,6 +1,6 @@
-package designpattern.abstractfactory.uiwidget.pm;
+package uiwidget.pm;
 
-import designpattern.abstractfactory.uiwidget.IWindow;
+import uiwidget.IWindow;
 
 public class PMWindow implements IWindow {
 

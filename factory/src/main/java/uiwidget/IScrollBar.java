@@ -1,4 +1,4 @@
-package designpattern.abstractfactory.uiwidget;
+package uiwidget;
 
 public interface IScrollBar {
 	void draw();

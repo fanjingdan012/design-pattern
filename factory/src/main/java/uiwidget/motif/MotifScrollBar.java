@@ -1,6 +1,6 @@
-package designpattern.abstractfactory.uiwidget.motif;
+package uiwidget.motif;
 
-import designpattern.abstractfactory.uiwidget.IScrollBar;
+import uiwidget.IScrollBar;
 
 public class MotifScrollBar implements IScrollBar {
 

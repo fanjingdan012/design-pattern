@@ -1,6 +1,6 @@
-package designpattern.abstractfactory.uiwidget.pm;
+package uiwidget.pm;
 
-import designpattern.abstractfactory.uiwidget.IScrollBar;
+import uiwidget.IScrollBar;
 
 public class PMScrollBar implements IScrollBar {
 

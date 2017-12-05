@@ -11,7 +11,6 @@ public class Classroom implements IUniversityElement{
     	return length * width;
     	
     }
-	@Override
 	public void accept(Visitor visitor) {
 		visitor.visitClassroom(this);
 	    

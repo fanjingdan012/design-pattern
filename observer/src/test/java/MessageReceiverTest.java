@@ -1,8 +1,3 @@
-package designpattern.observer.test;
-
-import designpattern.observer.Beeper;
-import designpattern.observer.MessagePrinter;
-import designpattern.observer.MessageReceiver;
 
 public class MessageReceiverTest {
 	public static void main(String[] args) throws Exception {

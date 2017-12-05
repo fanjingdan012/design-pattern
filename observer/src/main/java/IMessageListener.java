@@ -1,4 +1,3 @@
-package designpattern.observer;
 
 public interface IMessageListener {
 

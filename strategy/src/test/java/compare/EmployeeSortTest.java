@@ -1,4 +1,4 @@
-package designpattern.strategy.compare;
+package compare;
 
 import java.text.MessageFormat;
 import java.util.ArrayList;

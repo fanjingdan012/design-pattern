@@ -1,4 +1,3 @@
-package designpattern.iterator;
 
 public class MySpellChecker {
 

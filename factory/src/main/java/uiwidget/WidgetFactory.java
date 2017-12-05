@@ -1,7 +1,7 @@
-package designpattern.abstractfactory.uiwidget;
+package uiwidget;
 
-import designpattern.abstractfactory.uiwidget.motif.MotifWidgetFactory;
-import designpattern.abstractfactory.uiwidget.pm.PMWidgetFactory;
+import uiwidget.motif.MotifWidgetFactory;
+import uiwidget.pm.PMWidgetFactory;
 
 public abstract class WidgetFactory {
 

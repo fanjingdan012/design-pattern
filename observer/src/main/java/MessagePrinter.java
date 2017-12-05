@@ -1,4 +1,3 @@
-package designpattern.observer;
 
 public class MessagePrinter implements IMessageListener{
 	public void printMessage(String message) {

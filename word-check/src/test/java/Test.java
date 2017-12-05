@@ -11,7 +11,7 @@ import spellchecker.SpellChecker;
 
 public class Test {
 	public static void main(String [] args){
-		String filename = JOptionPane.showInputDialog("请输入要检查的文件");
+		String filename = JOptionPane.showInputDialog("please input file name to check(TextCheck.txt):");
 		File file = new File(filename);
 		WordDocument w = new TxtWordDocument(file);
 		SpellChecker s = new EnglishSpellChecker();

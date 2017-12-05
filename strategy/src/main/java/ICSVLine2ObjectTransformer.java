@@ -1,4 +1,3 @@
-package designpattern.strategy;
 
 public interface ICSVLine2ObjectTransformer<T> {
 	

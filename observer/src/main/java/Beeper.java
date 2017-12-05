@@ -1,4 +1,4 @@
-package designpattern.observer;
+
 
 import java.awt.Toolkit;
 

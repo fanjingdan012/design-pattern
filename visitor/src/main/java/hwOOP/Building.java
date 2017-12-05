@@ -10,7 +10,6 @@ public class Building implements IUniversityElement{
 		c.add(new Classroom(400, 800));
 		c.add(new Classroom(2,8));
 	}
-	@Override
 	public void accept(Visitor visitor) {
 
 		visitor.visitBuilding(this);

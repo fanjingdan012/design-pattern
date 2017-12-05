@@ -1,7 +1,7 @@
 /**
  * 
  */
-package designpattern.strategy.compare;
+package compare;
 
 public class Employee {
 	private int age;

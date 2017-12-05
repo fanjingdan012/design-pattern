@@ -1,6 +1,6 @@
-package designpattern.abstractfactory.uiwidget;
+package uiwidget;
 
-import designpattern.abstractfactory.uiwidget.motif.MotifWidgetFactory;
+import uiwidget.motif.MotifWidgetFactory;
 
 public interface IWidgetFactory {
 

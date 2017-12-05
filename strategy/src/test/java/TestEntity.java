@@ -1,7 +1,6 @@
 /**
  * 
  */
-package designpattern.strategy;
 
 public class TestEntity {
 	private int a, b, c;

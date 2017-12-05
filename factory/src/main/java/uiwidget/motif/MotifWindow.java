@@ -1,6 +1,6 @@
-package designpattern.abstractfactory.uiwidget.motif;
+package uiwidget.motif;
 
-import designpattern.abstractfactory.uiwidget.IWindow;
+import uiwidget.IWindow;
 
 public class MotifWindow implements IWindow {
 

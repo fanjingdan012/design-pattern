@@ -1,4 +1,4 @@
-package designpattern.strategy.csvimport;
+package csvimport;
 
 import java.io.BufferedReader;
 import java.io.IOException;
