@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_qb8akM37EdqwVrslYOdUDA">
+  <packagedElement xmi:type="uml:Package" xmi:id="_w8IxIM37EdqwVrslYOdUDA" name="model">
+    <packagedElement xmi:type="uml:Class" xmi:id="_4KCdkP9gEd-dwqBGXLL0FA" name="Equipment" isAbstract="true">
+      <ownedAttribute xmi:id="_Fhx6wP9hEd-dwqBGXLL0FA" name="power"/>
+      <ownedAttribute xmi:id="_KCOnIP9hEd-dwqBGXLL0FA" name="price"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_DaTQ4P9hEd-dwqBGXLL0FA" name="Memory">
+      <generalization xmi:id="_LHqlMP9hEd-dwqBGXLL0FA" general="_4KCdkP9gEd-dwqBGXLL0FA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_L73pUP9hEd-dwqBGXLL0FA" name="Computer">
+      <generalization xmi:id="_Nm95M_9hEd-dwqBGXLL0FA" general="_4KCdkP9gEd-dwqBGXLL0FA"/>
+      <ownedAttribute xmi:id="_PclXAP9hEd-dwqBGXLL0FA" name="equipment" type="_4KCdkP9gEd-dwqBGXLL0FA" aggregation="composite" association="_Pc8jYP9hEd-dwqBGXLL0FA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PclXAf9hEd-dwqBGXLL0FA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_PclXAv9hEd-dwqBGXLL0FA" value="1"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_Pc8jYP9hEd-dwqBGXLL0FA" name="A_&lt;computer>_&lt;equipment>" memberEnd="_Pc9KcP9hEd-dwqBGXLL0FA _PclXAP9hEd-dwqBGXLL0FA">
+      <ownedEnd xmi:id="_Pc9KcP9hEd-dwqBGXLL0FA" name="computer" type="_L73pUP9hEd-dwqBGXLL0FA" association="_Pc8jYP9hEd-dwqBGXLL0FA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Pc9Kcf9hEd-dwqBGXLL0FA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Pc9Kcv9hEd-dwqBGXLL0FA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_qb8akM37EdqwVrslYOdUDA">
+  <packagedElement xmi:type="uml:Package" xmi:id="_w8IxIM37EdqwVrslYOdUDA" name="CourseSystem">
+    <packagedElement xmi:type="uml:Class" xmi:id="_9s-RkOufEd-8hcvtpk4LYQ" name="Course"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_-kMNcOufEd-8hcvtpk4LYQ" name="Teacher"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_BHYi8OugEd-8hcvtpk4LYQ" name="Student"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_FMbswOugEd-8hcvtpk4LYQ" name="A_&lt;teacher>_&lt;course>" memberEnd="_FMbsweugEd-8hcvtpk4LYQ _FMcT0OugEd-8hcvtpk4LYQ" navigableOwnedEnd="_FMcT0OugEd-8hcvtpk4LYQ">
+      <ownedEnd xmi:id="_FMbsweugEd-8hcvtpk4LYQ" name="teacher" type="_-kMNcOufEd-8hcvtpk4LYQ" association="_FMbswOugEd-8hcvtpk4LYQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FMbswuugEd-8hcvtpk4LYQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FMbsw-ugEd-8hcvtpk4LYQ" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_FMcT0OugEd-8hcvtpk4LYQ" name="course" type="_9s-RkOufEd-8hcvtpk4LYQ" association="_FMbswOugEd-8hcvtpk4LYQ">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FMcT0eugEd-8hcvtpk4LYQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FMcT0uugEd-8hcvtpk4LYQ" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.views">
+      <category
+            id="edu.fudan.ss.ooad.eclipse"
+            name="Course Category">
+      </category>
+      <view
+            category="edu.fudan.ss.ooad.eclipse"
+            class="edu.fudan.ss.ooad.eclipse.views.CoursesView"
+            icon="icons/sample.gif"
+            id="edu.fudan.ss.ooad.eclipse.views.CoursesView"
+            name="Courses View">
+      </view>
+   </extension>
+   <extension
+         point="org.eclipse.ui.popupMenus">
+      <objectContribution
+            id="edu.fudan.ss.ooad.eclipse.contribution1"
+            objectClass="edu.fudan.ss.ooad.eclipse.core.ICourse">
+         <menu
+               id="edu.fudan.ss.ooad.eclipse.menu1"
+               label="Course Actions"
+               path="additions">
+            <separator
+                  name="group1">
+            </separator>
+         </menu>
+         <action
+               class="edu.fudan.ss.ooad.eclipse.popup.actions.HelloCourse"
+               enablesFor="1"
+               id="edu.fudan.ss.ooad.eclipse.newAction"
+               label="Hello to Course"
+               menubarPath="edu.fudan.ss.ooad.eclipse.menu1/group1">
+         </action>
+      </objectContribution>
+   </extension>
+
+</plugin>
