@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>hwOOP.Building</OriginalElement>
+  <nodes>
+    <node x="443.0" y="478.5">hwOOP.Campus</node>
+    <node x="254.0" y="456.0">hwOOP.Classroom</node>
+    <node x="364.75" y="354.0">hwOOP.IUniversityElement</node>
+    <node x="697.0" y="478.5">hwOOP.Building</node>
+    <node x="0.0" y="478.5">hwOOP.University</node>
+    <node x="2.0" y="278.0">hwOOP.FindLargeClassroomVisitor</node>
+    <node x="0.0" y="0.0">hwOOP.Visitor</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="hwOOP.Classroom" target="hwOOP.IUniversityElement">
+      <point x="0.0" y="-60.0" />
+      <point x="338.5" y="436.0" />
+      <point x="428.125" y="436.0" />
+      <point x="-21.125" y="26.0" />
+    </edge>
+    <edge source="hwOOP.Campus" target="hwOOP.IUniversityElement">
+      <point x="0.0" y="-37.5" />
+      <point x="560.0" y="436.0" />
+      <point x="470.375" y="436.0" />
+      <point x="21.125" y="26.0" />
+    </edge>
+    <edge source="hwOOP.FindLargeClassroomVisitor" target="hwOOP.Visitor">
+      <point x="0.0" y="-70.5" />
+      <point x="0.0" y="59.0" />
+    </edge>
+    <edge source="hwOOP.Building" target="hwOOP.IUniversityElement">
+      <point x="0.0" y="-37.5" />
+      <point x="814.0" y="426.0" />
+      <point x="512.625" y="426.0" />
+      <point x="63.375" y="26.0" />
+    </edge>
+    <edge source="hwOOP.University" target="hwOOP.IUniversityElement">
+      <point x="0.0" y="-37.5" />
+      <point x="117.0" y="426.0" />
+      <point x="385.875" y="426.0" />
+      <point x="-63.375" y="26.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="362.0" y="153.0" />
+  <SelectedNodes>
+    <node>hwOOP.FindLargeClassroomVisitor</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
