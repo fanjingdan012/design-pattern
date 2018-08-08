@@ -11,7 +11,8 @@ classroom:length=400,width=800
 2
 ```
 ## Project Structure
-[!uml](https://github.com/fanjingdan012/design-pattern/blob/master/visitor/doc/visitor.png)
+![uml](https://github.com/fanjingdan012/design-pattern/blob/master/visitor/doc/visitor.png)
+
 ## Responsibilities of each class
 ### FindLargeClassroomVisitor
 - decide what to do with the place it visit by implementing `visitXX()`, eg:
